@@ -1,58 +1,3 @@
-# 🎂 Birthday Reminder — Smart Contract
-
-A simple and beginner-friendly Ethereum smart contract that allows each user to save and manage **their own list of birthdays** on the blockchain.  
-Perfect for learning Solidity fundamentals such as **structs, arrays, mappings, events, validation, and state management**.
-
----
-
-## 📌 Project Description
-
-The **Birthday Reminder** smart contract lets every wallet address store birthdays privately.  
-Each user sees **only their own birthdays**, making it a clean, isolated data system for learning Web3 storage patterns.
-
-This project is ideal for:
-- Blockchain beginners  
-- Students learning Solidity  
-- Developers exploring simple decentralized storage  
-- Portfolio smart contract examples  
-
----
-
-## 🚀 What It Does
-
-- Stores birthdays per user  
-- Lets users **add, view, count, and remove** stored birthdays  
-- Checks if today matches any saved birthday  
-- Emits events for easy frontend integration  
-- Runs entirely on-chain  
-
----
-
-## 🌟 Features
-
-- ✔ **Add a Birthday** — Name + Day + Month + Year  
-- ✔ **View All Your Birthdays**  
-- ✔ **View Single Birthday by Index**  
-- ✔ **Count Total Birthdays Saved**  
-- ✔ **Check Today's Birthdays** (user inputs the date)  
-- ✔ **Delete a Birthday**  
-- ✔ **Beginner-friendly with simple validation**  
-- ✔ **Events** for UI updates  
-
----
-
-## 🔗 Deployed Smart Contract  
-**Coston2 Explorer (Flare Testnet):**  
-**Link:** https://coston2-explorer.flare.network/txs
-
----
-
-## 🧩 Smart Contract Code
-
-Use this code:  
-```solidity
-//paste your code
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -192,4 +137,3 @@ contract BirthdayReminder {
         return "Birthday Reminder Smart Contract v1.0 - Easy, simple, beginner-friendly.";
     }
 }
-
