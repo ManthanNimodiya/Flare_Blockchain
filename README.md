@@ -10,6 +10,7 @@ A decentralized Birthday Reminder dApp that lets users store, manage, and track 
 - **Contract Address**: `0x7EBf2132EaF7a2C40579De26D03F190da661b83E`  
 - **Block Explorer**:  
   https://coston2-explorer.flare.network/address/0x7EBf2132EaF7a2C40579De26D03F190da661b83E
+<img width="1512" height="982" alt="Screenshot 2025-11-28 at 13 44 34" src="https://github.com/user-attachments/assets/15e6137e-a717-4048-93c3-deb0e788c3c3" />
 
 ---
 
