@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useAccount } from "wagmi"
 import { useWillContract } from "@/hooks/useContract"
 
@@ -48,6 +48,12 @@ const SampleIntregation = () => {
     }
   }
 
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
   const handleRemoveBirthday = async (index?: number) => {
     try {
       const idx = typeof index === "number" ? index : Number(removeIndex)
@@ -59,7 +65,7 @@ const SampleIntregation = () => {
     }
   }
 
-  if (!isConnected) {
+  if (!mounted || !isConnected) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center p-4">
         <div className="max-w-md w-full">

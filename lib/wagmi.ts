@@ -5,7 +5,7 @@ export const config = getDefaultConfig({
   appName: "birthdayreminder",
   projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || "YOUR_WALLETCONNECT_PROJECT_ID", // You'll need to get this from WalletConnect
   chains: [flareTestnetCoston2, sepolia],
-  ssr: true,
+  ssr: false,
 });
 
 declare module 'wagmi' {
